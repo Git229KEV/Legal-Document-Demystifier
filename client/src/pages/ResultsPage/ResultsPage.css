@@ -1,0 +1,148 @@
+.results-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 2rem 2.5rem;
+  background-color: #1a2036;
+  border-radius: 12px;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  border: 1px solid #3d4a70;
+}
+
+.error-container {
+  text-align: center;
+  padding: 3rem;
+}
+/* Extracted text aligned like original PDF */
+/* Styles for extracted text blocks (HTML from server) */
+.page-html-content {
+  background-color: #1a2036;  /* same as results-container */
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  text-align: left;
+  line-height: 1.6;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  white-space: pre-wrap;   /* preserve line breaks */
+  word-wrap: break-word;
+  overflow-x: auto;        /* allow horizontal scroll if too wide */
+}
+
+.extracted-text-page h4 {
+  margin-bottom: 0.5rem;
+  color: #4A90E2;
+}
+
+
+
+.verdict-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.verdict-original {
+  color: #4caf50;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.verdict-fake {
+  color: #f44336;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.mismatch-reason {
+  background-color: rgba(244, 67, 54, 0.1);
+  border: 1px solid #f44336;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.mismatch-reason strong {
+  color: #f44336;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.comparison-table, .summary-section {
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+.comparison-table h3, .summary-section h3 {
+  color: #fff;
+  border-bottom: 2px solid #3d4a70;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.comparison-table th, .comparison-table td {
+  border: 1px solid #3d4a70;
+  padding: 12px 15px;
+  vertical-align: middle;
+}
+
+.comparison-table th {
+  background-color: #252e4d;
+  color: #fff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.comparison-table td {
+  background-color: #1f2641;
+}
+
+.document-data-cell {
+  font-style: italic;
+  color: #b0b8d3;
+  word-break: break-word;
+}
+
+.status-match {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.status-mismatch {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.summary-section p {
+  background-color: #1f2641;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #3d4a70;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 12px 25px;
+  background-color: #4A90E2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #357ABD;
+}
